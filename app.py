@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(page_title="Quick Veda | Doc Analyzer", page_icon="📄", layout="wide")
 
 # Configure Gemini API
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("AIzaSyARxp3L5jhlcfZqFYbVSMXO36UF4PhCSIY")
 if not GEMINI_API_KEY:
     st.error("Gemini API key not found. Please set the GEMINI_API_KEY environment variable.")
     st.stop()
